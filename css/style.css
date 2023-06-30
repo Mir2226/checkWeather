@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #9cdada;
+}
+main {
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+}
+main .block_container {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+main .block_container button {
+  margin-top: 20px;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+main .block_container button:hover {
+  transition: 3s;
+  background-color: #183f88;
+}
+main .block_container hr {
+  margin-top: 20px;
+}
+main .main_section {
+  padding: 40px;
+}
+main .main_section .correct {
+  background-color: green;
+  color: aliceblue;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+main .main_section .incorrect {
+  background-color: red;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+main .second_section {
+  text-align: center;
+  padding-top: 20px;
+}
+main .second_section input {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: context-menu;
+}
+main .second_section p {
+  color: #626b7b;
+  font-size: 20px;
+}
+main h2 {
+  color: #626b7b;
+}
